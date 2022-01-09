@@ -1,6 +1,11 @@
 # Scraper-Class
-Scraping Class to get Url-Content by  public Proxys
+Very basic scraping-class to get Url-Content by  public Proxys
 Look demo.php on how to use.
+
+## Install
++ Download Code
++ Include to your Code
++ if you want to use Cache: add database schema: cache.sql to your MySQL Server and insert credentials as construcor-parameters.
 
 ## Basic Usage
 ```php

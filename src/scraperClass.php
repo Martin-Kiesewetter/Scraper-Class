@@ -11,10 +11,10 @@ class scraperClass
     function __construct($db_host = null, $db_user = null, $db_pass = null, $db_name = null)
     {
         if ($db_host !== null) {
-            $this->DB = @new mysqli($db_host, $db_user, $db_pass, $db_name);
+            $this->DB = @new \mysqli($db_host, $db_user, $db_pass, $db_name);
             // Check connection
             if ($this->DB->connect_error) {
-                throw new Exception('Connection failed: ' . $this->DB->connect_error);
+                throw new \Exception('Connection failed: ' . $this->DB->connect_error);
             }
         } 
     }
@@ -94,6 +94,6 @@ class scraperClass
                 $this->proxyUsed = ($this->proxyUsed + 1) % sizeof($this->proxyList);
             }
         } while ($maxProxyTrys > 0);
-        throw new Exception('Reached maximum trys!',101);
+        throw new \Exception('Reached maximum trys!',101);
     }
 }

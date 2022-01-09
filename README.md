@@ -1,7 +1,7 @@
 # Scraper-Class
 Very basic scraping-class to get Url-Content by  public Proxys
-Look demo.php on how to use.
-The main advantage is, that 
+
+# mainfeatures
 * u dont need to search for proxy-lists. Its done by the Class itself.
 * https makes no problems
 
@@ -38,7 +38,7 @@ try{
 ```
 
 # Known Issues / place for improvement
-* Cache not deleteable right now
+* cache not deleteable right now
 * no unittests at the moment
 
 # Thanks

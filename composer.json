@@ -3,7 +3,6 @@
     "description": "Very basic scraping-class to get Url-Content by public Proxys Look demo.php on how to use. The main advantage is, that \nu dont need to search for proxy-lists. Its done by the Class itself.\n    https makes no problems",
     "type": "library",
     "license": "Apache-2.0",
-    "version": "1.0",
     "minimum-stability": "dev",
     "homepage": "https://github.com/AllenJB/Utilities",
     "authors": [
@@ -13,9 +12,7 @@
         }
     ],
     "require": {
-        "php" : ">=7.1",
-        "kies-media/scraper-class" : "^1.0"
-
+        "php" : ">=7.1"
     },
     "autoload": {
         "psr-4": {

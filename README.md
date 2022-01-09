@@ -37,8 +37,9 @@ try{
 }
 ```
 
-# Known Problems
+# Known Issues / place for improvement
 * Cache not deleteable right now
+* no unittests at the moment
 
 # Thanks
 to proxyscrape.com for providing public proxy-list

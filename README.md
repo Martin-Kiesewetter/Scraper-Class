@@ -12,7 +12,7 @@ The main advantage is, that
 ```composer
 composer require kies-media/scraper-class
 ```
-if you want to use caching (and u should), then u have to create table from /cache.sql
+if you want to use caching (and u should), then u have to create table from /src/cache.sql
 
 ## Basic Usage
 ```php

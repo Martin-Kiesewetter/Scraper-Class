@@ -3,6 +3,7 @@
     "description": "Very basic scraping-class to get Url-Content by public Proxys Look demo.php on how to use. The main advantage is, that \nu dont need to search for proxy-lists. Its done by the Class itself.\n    https makes no problems",
     "type": "library",
     "license": "Apache-2.0 License",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "Martin Kiesewetter",

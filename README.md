@@ -1,6 +1,7 @@
 # Scraper-Class
 Very basic scraping-class to get Url-Content by  public Proxys
 Look demo.php on how to use.
+The main advantage is, that u dont need to search for proxy-lists. Its done by the Class itself.
 
 ## Install
 + Download Code
@@ -18,5 +19,8 @@ $Scraper=new scraperClass("localhost","root","","test");
 echo $Scraper->getUrlByProxy("https://kies-media.de/");
 ```
 
-Known Problems:
+# Known Problems:
 * Cache not deleteable right now
+
+# Thanks
+to proxyscrape.com for providing public proxy-list

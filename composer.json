@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-          "ScraperClass\\": "Scraper-Class/"
+          "Martin-Kiesewetter\\Scraper-Class\\": "src"
         }
     }
 }

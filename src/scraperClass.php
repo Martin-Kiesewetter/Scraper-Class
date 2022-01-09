@@ -1,5 +1,5 @@
 <?php
-namespace ScraperClass;
+
 
 class scraperClass
 {

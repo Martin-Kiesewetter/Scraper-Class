@@ -1,5 +1,5 @@
 <?php
-
+namespace KiesMedia\ScraperClass;
 
 class scraperClass
 {

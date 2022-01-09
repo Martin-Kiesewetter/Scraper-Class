@@ -8,20 +8,33 @@ The main advantage is, that
 ## Prerequisite
 * file_get_contents is active on your webserver (normaly the case)
  
-## Install
-+ Download Code
-+ Include to your Code
-+ if you want to use Cache: add database schema: cache.sql to your MySQL Server and insert credentials as construcor-parameters.
+## Install with Composer
+```composer
+composer require kies-media/scraper-class
+```
+if you want to use caching (and u should), then u have to create table from /cache.sql
 
 ## Basic Usage
 ```php
-$Scraper=new scraperClass();
-echo $Scraper->getUrlByProxy("https://kies-media.de/");
+<?php
+require __DIR__ . '/vendor/autoload.php';
+$scraper=new \KiesMedia\ScraperClass\scraperClass();
+try{
+    echo $scraper->getUrlByProxy("https://kies-media.de/");
+}catch(Exception $e){
+    echo $e->getMessage();
+}
 ```
 ## Basic Usage Cache
 ```php
-$Scraper=new scraperClass("localhost","root","","test");
-echo $Scraper->getUrlByProxy("https://kies-media.de/");
+<?php
+require __DIR__ . '/vendor/autoload.php';
+$scraper=new \KiesMedia\ScraperClass\scraperClass("localhost","root","pass","databasename");
+try{
+    echo $scraper->getUrlByProxy("https://kies-media.de/",10);
+}catch(Exception $e){
+    echo $e->getMessage();
+}
 ```
 
 # Known Problems

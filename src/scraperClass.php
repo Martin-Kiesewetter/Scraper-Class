@@ -7,7 +7,6 @@ class scraperClass
     var $proxyList = null;
     var $proxyUsed = 0;
 
-
     function __construct($db_host = null, $db_user = null, $db_pass = null, $db_name = null)
     {
         if ($db_host !== null) {
